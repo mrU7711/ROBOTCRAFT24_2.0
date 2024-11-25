@@ -1,0 +1,6 @@
+<launch>
+  <!-- Include the robot_firmware.launch file -->
+  <include file="$(find robotcraft2024_driver_g8)/launch/robot_bringup.launch" />
+
+  <node name="square_test" pkg="robotcraft2024_driver_g8" type="square_test.py" output="screen" cwd="node" />
+</launch>

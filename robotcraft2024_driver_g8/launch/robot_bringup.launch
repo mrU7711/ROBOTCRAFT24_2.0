@@ -1,0 +1,10 @@
+<launch>
+  <!-- Include the robot_firmware.launch file -->
+  <include file="$(find robotcraft2024_driver_g8)/launch/robot_firmware.launch" />
+
+  <!-- Include the robot_driver.launch file -->
+  <include file="$(find robotcraft2024_driver_g8)/launch/robot_driver.launch" />
+
+  <!-- Include the display_robotcraft.launch file -->
+  <include file="$(find robotcraft_robot_description)/launch/display_robotcraft.launch" />
+</launch>

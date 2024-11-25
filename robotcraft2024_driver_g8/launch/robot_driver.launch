@@ -1,0 +1,5 @@
+<launch>
+
+  <node name="robot_driver_node" pkg="robotcraft2024_driver_g8" type="robot_driver.py" output="screen" />
+</launch>
+
